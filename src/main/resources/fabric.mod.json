@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "testhud",
+  "version": "1.0.0",
+  "name": "Test HUD",
+  "description": "A simple test HUD overlay for Fabric 1.21.1",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.testhud.TestHud"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
